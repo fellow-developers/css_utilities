@@ -11,3 +11,9 @@ Go to the project directory
 ```bash
 cd css_utilities
 ```
+
+Open This Project In VSCode
+
+```bash
+code .
+```
