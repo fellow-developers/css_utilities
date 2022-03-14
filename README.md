@@ -24,6 +24,12 @@ code .
 git pull origin main
 ```
 
+# Create and switch to new branch
+
+```bash
+git checkout -b `new-branch-name`
+```
+
 # SCSS Architecture
 
 ```
