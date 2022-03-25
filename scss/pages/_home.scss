@@ -5,7 +5,6 @@
   min-height: 100%;
   @include grid-center;
   gap: 50px;
-  background-color: red;
   h1 {
     font-size: 4vmax;
     text-align: center;
@@ -22,7 +21,6 @@
       @include grid-center;
       font-size: 2vmax;
       border-radius: 10%;
-      background-color: yellowgreen;
     }
   }
 }
