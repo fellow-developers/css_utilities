@@ -1,0 +1,28 @@
+.container {
+  padding: 25px;
+  margin-bottom: 100px;
+  width: 100%;
+  min-height: 100%;
+  @include grid-center;
+  gap: 50px;
+  background-color: red;
+  h1 {
+    font-size: 4vmax;
+    text-align: center;
+  }
+  .box-container {
+    width: 100%;
+    min-height: 100%;
+    @include grid-center;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    .box {
+      width: 150px;
+      height: 150px;
+      @include grid-center;
+      font-size: 2vmax;
+      border-radius: 10%;
+      background-color: yellowgreen;
+    }
+  }
+}
