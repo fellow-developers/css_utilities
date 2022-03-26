@@ -1,0 +1,22 @@
+{
+  "name": "css_utilities",
+  "version": "1.0.0",
+  "description": "css utilities website",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fellow-developers/css_utilities.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fellow-developers/css_utilities/issues"
+  },
+  "homepage": "https://github.com/fellow-developers/css_utilities#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
