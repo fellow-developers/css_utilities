@@ -1,1 +1,0 @@
-{"version":3,"sources":["../ts/demo.ts"],"names":[],"mappings":";AAAA,QAAQ,CAAC,IAAI,CAAC,KAAK,CAAC,eAAe,GAAG,KAAK,CAAC","file":"demo.js","sourcesContent":["document.body.style.backgroundColor = \"red\";\r\n"]}
