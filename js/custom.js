@@ -26,8 +26,18 @@ async function getShadows(file, boxContainerSelector, boxClassName, indexClassNa
                 }
             }
             box.append(indexSpan, creditPrara);
-            console.log(box);
+            // console.log(box);
             document.querySelector(boxContainerSelector).append(box);
+            box.addEventListener('click', () => {
+                navigator.clipboard.writeText(box.getAttribute('style'));
+                // const boxIndex=box.querySelector('.index')! as HTMLSpanElement;
+                const indexSpanText = indexSpan.innerText;
+                indexSpan.innerText = "Copied!";
+                setTimeout(() => {
+                    indexSpan.innerHTML = indexSpanText;
+                    indexSpan.classList.remove('copied');
+                }, 1000);
+            });
         });
     }
     catch (error) {

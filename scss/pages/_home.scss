@@ -16,6 +16,7 @@
     gap: 50px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     .box {
+      cursor: pointer;
       width: 150px;
       height: 150px;
       @include grid-center;
